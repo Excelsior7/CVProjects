@@ -9,8 +9,8 @@ The goal of this little project was to create an object detection algorithm that
 
 More specifically, how to use the code in order to have the expected results as described above:
 
-1. You instantiate one object <objectDetectorInVideo>.
-2. From your instance you call the function <def objectDetectionInVideo> with the following parameters:  
+1. You instantiate one object **objectDetectorInVideo**.
+2. From your instance you call the function **def objectDetectionInVideo** with the following parameters:  
     2.1 The path of the input video. (e.g. “./path/to/input/video/input.mp4”)  
     2.2 The path of the output video. (e.g. “./path/to/output/video/output.mp4”) TSLM  
     2.3 A threshold T, such that T is a real number between 0 and 1. (e.g. 0.9)  
